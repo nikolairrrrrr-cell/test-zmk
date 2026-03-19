@@ -1,5 +1,5 @@
 {
-  "drawing_name": "Опора скользящая 630-13 по ОСТ 108.275.30-80",
+  "drawing_name": "630-13",
   "items": [
     {
       "elem": "",
@@ -10,8 +10,6 @@
       "length": "",
       "mass_sht": "0,053",
       "mass_total": "0,21",
-      "mass_elem": "102,21",
-      "steel": "",
       "note": ""
     },
     {
@@ -23,8 +21,6 @@
       "length": "",
       "mass_sht": "0,242",
       "mass_total": "1,94",
-      "mass_elem": "",
-      "steel": "",
       "note": ""
     },
     {
@@ -36,9 +32,7 @@
       "length": "1676",
       "mass_sht": "9,3",
       "mass_total": "18,6",
-      "mass_elem": "",
-      "steel": "",
-      "note": ""
+      "note": "нар. резьбу, гнуть"
     },
     {
       "elem": "",
@@ -49,21 +43,17 @@
       "length": "780",
       "mass_sht": "26,14",
       "mass_total": "26,14",
-      "mass_elem": "",
-      "steel": "",
       "note": ""
     },
     {
       "elem": "",
       "det": "3",
-      "t": "4",
+      "t": "1",
       "n": "",
       "section": "95x10",
       "length": "328",
       "mass_sht": "2,05",
-      "mass_total": "8,2",
-      "mass_elem": "",
-      "steel": "",
+      "mass_total": "2,05",
       "note": "гнуть"
     },
     {
@@ -75,9 +65,7 @@
       "length": "590",
       "mass_sht": "14,12",
       "mass_total": "14,12",
-      "mass_elem": "",
-      "steel": "",
-      "note": ""
+      "note": "гнуть"
     },
     {
       "elem": "",
@@ -88,8 +76,6 @@
       "length": "810",
       "mass_sht": "15,0",
       "mass_total": "30,0",
-      "mass_elem": "",
-      "steel": "",
       "note": "гнуть"
     }
   ]

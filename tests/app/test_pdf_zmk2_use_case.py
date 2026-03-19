@@ -48,8 +48,34 @@ def test_build_pdf_zmk2_values_from_payload() -> None:
         }
     )
     assert len(values) == 3
-    assert values[2][1] == "8"
+    # Legacy JSON: det/t = отпр. элем. / дет. (not КОЛ) when elem is empty
+    assert values[2][0] == "8"
+    assert values[2][1] == "4"
     assert values[2][4].startswith("Шайба")
+
+
+def test_build_pdf_zmk2_values_canonical_elem_filled() -> None:
+    values = pdf_zmk2.build_pdf_zmk2_values_from_payload(
+        {
+            "items": [
+                {
+                    "elem": "5",
+                    "det": "2",
+                    "t": "1",
+                    "n": "3",
+                    "section": "КрГ30",
+                    "length": "1676",
+                    "mass_sht": "9,3",
+                    "mass_total": "18,6",
+                    "note": "нар. резьбу",
+                }
+            ]
+        }
+    )
+    assert values[2][0] == "5"
+    assert values[2][1] == "2"
+    assert values[2][2] == "1"
+    assert values[2][3] == "3"
 
 
 def test_run_pdf_zmk2_dry_run_and_report(tmp_path: Path) -> None:

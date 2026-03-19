@@ -22,10 +22,15 @@ switch ($Command) {
     }
     "pdf-zmk2" {
         if (-not $InputPath) {
-            Write-Error "InputPath is required for pdf-zmk2"
-            exit 2
+            python -m app.cli pdf-zmk2 full
+            break
         }
-        python -m app.cli pdf-zmk2 run --input $InputPath
+        if (Test-Path -LiteralPath $InputPath -PathType Container) {
+            python -m app.cli pdf-zmk2 full --input-dir $InputPath
+        }
+        else {
+            python -m app.cli pdf-zmk2 run --input $InputPath
+        }
         break
     }
 }

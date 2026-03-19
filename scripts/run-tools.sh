@@ -30,10 +30,12 @@ case "$cmd" in
   pdf-zmk2)
     input="${2:-}"
     if [[ -z "$input" ]]; then
-      echo "Usage: $0 pdf-zmk2 <payload.json>"
-      exit 2
+      python -m app.cli pdf-zmk2 full
+    elif [[ -d "$input" ]]; then
+      python -m app.cli pdf-zmk2 full --input-dir "$input"
+    else
+      python -m app.cli pdf-zmk2 run --input "$input"
     fi
-    python -m app.cli pdf-zmk2 run --input "$input"
     ;;
   *)
     echo "Unknown command: $cmd"

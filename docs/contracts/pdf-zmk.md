@@ -1,7 +1,7 @@
 # Contract: `pdf-zmk` tool
 
 ## Purpose
-Process drawings/images of type `PDF_ZMK`, normalize extracted rows, write data to Google Sheet `PDF_ZMK`.
+Process drawings/images of type `PDF_ZMK`, normalize extracted rows, write data to Google Sheet tab **`База2`** (override with env `GOOGLE_SHEET_PDF_ZMK`).
 
 ## CLI
 ```
@@ -51,7 +51,7 @@ The agent re-runs the same command. Now all payloads exist, so:
 1. Load all `<slug>.json` files.
 2. Normalize each row via `pdf_zmk_normalizer`.
 3. Merge all drawings into a single values table.
-4. Write to Google Sheet `PDF_ZMK` (if `--sheet-write`).
+4. Write to Google Sheet tab `База2` (if `--sheet-write`).
 
 If any payload still has empty `items`, the run **fails** (fail-fast).
 

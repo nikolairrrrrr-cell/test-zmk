@@ -4,7 +4,7 @@
   - Формат колонок: `poz;designation;name;qty;weight`.
   - Эти файлы повторяют таблицу чертежа `Поз / Обозначение / Наименование / Кол / Примеч.` без нормализации.
   - Используются как fallback в `AgentRecognizer._try_build_payload_from_raw_specs()`.
-- `data/raw_specs/pdf_zmk2/*.csv` — сырые спецификации стали для листа `PDF_ZMK2`.
+- `data/raw_specs/pdf_zmk2/*.csv` — сырые спецификации стали для листа Google **`СЕ1`** (pdf-zmk2).
   - Формат: `elem;det;t;n;section;length;mass_sht;mass_total;note`.
 
 ## Пайплайн

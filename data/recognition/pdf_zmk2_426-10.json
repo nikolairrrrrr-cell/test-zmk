@@ -1,17 +1,15 @@
 {
-  "drawing_name": "Опора скользящая 630-13 по ОСТ 108.275.30-80",
+  "drawing_name": "426-10",
   "items": [
     {
       "elem": "",
       "det": "8",
       "t": "4",
       "n": "",
-      "section": "Шайба 30 ГОСТ 11371-78*",
+      "section": "Шайба 24 ГОСТ 11371-78*",
       "length": "",
       "mass_sht": "0,053",
       "mass_total": "0,21",
-      "mass_elem": "102,21",
-      "steel": "",
       "note": ""
     },
     {
@@ -19,12 +17,10 @@
       "det": "7",
       "t": "8",
       "n": "",
-      "section": "Гайка М30.8 ГОСТ 5915-70*",
+      "section": "Гайка М24.8 ГОСТ 5915-70*",
       "length": "",
       "mass_sht": "0,242",
       "mass_total": "1,94",
-      "mass_elem": "",
-      "steel": "",
       "note": ""
     },
     {
@@ -32,13 +28,11 @@
       "det": "5",
       "t": "2",
       "n": "",
-      "section": "КрГ30",
+      "section": "КрГ24",
       "length": "1676",
-      "mass_sht": "9,3",
-      "mass_total": "18,6",
-      "mass_elem": "",
-      "steel": "",
-      "note": ""
+      "mass_sht": "7,06",
+      "mass_total": "14,12",
+      "note": "нар. резьбу, гнуть"
     },
     {
       "elem": "",
@@ -47,23 +41,19 @@
       "n": "",
       "section": "305x14",
       "length": "780",
-      "mass_sht": "26,14",
-      "mass_total": "26,14",
-      "mass_elem": "",
-      "steel": "",
+      "mass_sht": "19,63",
+      "mass_total": "19,63",
       "note": ""
     },
     {
       "elem": "",
       "det": "3",
-      "t": "4",
+      "t": "1",
       "n": "",
       "section": "95x10",
       "length": "328",
-      "mass_sht": "2,05",
-      "mass_total": "8,2",
-      "mass_elem": "",
-      "steel": "",
+      "mass_sht": "1,54",
+      "mass_total": "1,54",
       "note": "гнуть"
     },
     {
@@ -73,11 +63,9 @@
       "n": "",
       "section": "305x10",
       "length": "590",
-      "mass_sht": "14,12",
-      "mass_total": "14,12",
-      "mass_elem": "",
-      "steel": "",
-      "note": ""
+      "mass_sht": "10,92",
+      "mass_total": "10,92",
+      "note": "гнуть"
     },
     {
       "elem": "",
@@ -86,10 +74,8 @@
       "n": "",
       "section": "280x10",
       "length": "810",
-      "mass_sht": "15,0",
-      "mass_total": "30,0",
-      "mass_elem": "",
-      "steel": "",
+      "mass_sht": "11,58",
+      "mass_total": "23,16",
       "note": "гнуть"
     }
   ]

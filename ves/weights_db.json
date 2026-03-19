@@ -1072,7 +1072,7 @@
     },
     "status": "single_source",
     "note": "Вес 30.68 кг найден только на одном сайте (awstroy.ru: 30.68 кг).",
-    "updated_at": "2026-03-19T09:41:56+00:00",
+    "updated_at": "2026-03-19T10:21:07+00:00",
     "sources": [
       {
         "domain": "opora-trub.ru",
@@ -1107,7 +1107,7 @@
         "url": "https://awstroy.ru/product/opora-dn-630-02-ost-24-125-158-01-skolzyashchaya-napravlyayushchaya-privarnaya/",
         "weight": 30.68,
         "unit": "kg",
-        "fetched_at": "2026-03-19T09:41:56+00:00"
+        "fetched_at": "2026-03-19T10:21:07+00:00"
       }
     ]
   },
@@ -1119,7 +1119,7 @@
     },
     "status": "single_source",
     "note": "Вес 30.68 кг найден только на одном сайте (awstroy.ru: 30.68 кг).",
-    "updated_at": "2026-03-19T09:42:27+00:00",
+    "updated_at": "2026-03-19T10:24:09+00:00",
     "sources": [
       {
         "domain": "opora-trub.ru",
@@ -1154,7 +1154,7 @@
         "url": "https://awstroy.ru/product/opora-dn-720-03-ost-24-125-158-01-skolzyashchaya-napravlyayushchaya-privarnaya/",
         "weight": 30.68,
         "unit": "kg",
-        "fetched_at": "2026-03-19T09:42:27+00:00"
+        "fetched_at": "2026-03-19T10:24:09+00:00"
       }
     ]
   },
@@ -1166,21 +1166,21 @@
     },
     "status": "confirmed",
     "note": "Подтверждён одинаковый вес 30.68 кг на нескольких источниках (opora-trub.ru: 30.68 кг; awstroy.ru: 30.68 кг).",
-    "updated_at": "2026-03-19T09:42:34+00:00",
+    "updated_at": "2026-03-19T10:24:18+00:00",
     "sources": [
       {
         "domain": "opora-trub.ru",
         "url": "https://www.opora-trub.ru/produkciya/opory-truboprovodov/opory-skolzyashchie-napravlyayushchie-privarnye-ost-24-125-158-01/",
         "weight": 30.68,
         "unit": "kg",
-        "fetched_at": "2026-03-19T09:42:34+00:00"
+        "fetched_at": "2026-03-19T10:24:18+00:00"
       },
       {
         "domain": "awstroy.ru",
         "url": "https://awstroy.ru/product/opora-dn-630-02-ost-24-125-158-01-skolzyashchaya-napravlyayushchaya-privarnaya/",
         "weight": 30.68,
         "unit": "kg",
-        "fetched_at": "2026-03-19T09:42:34+00:00"
+        "fetched_at": "2026-03-19T10:24:18+00:00"
       }
     ]
   },
@@ -1191,14 +1191,14 @@
     },
     "status": "single_source",
     "note": "Вес 30.68 кг найден только на одном сайте (opora-trub.ru: 30.68 кг).",
-    "updated_at": "2026-03-19T09:42:46+00:00",
+    "updated_at": "2026-03-19T10:24:33+00:00",
     "sources": [
       {
         "domain": "opora-trub.ru",
         "url": "https://www.opora-trub.ru/produkciya/opory-truboprovodov/opory-skolzyashchie-napravlyayushchie-privarnye-ost-24-125-158-01/",
         "weight": 30.68,
         "unit": "kg",
-        "fetched_at": "2026-03-19T09:42:46+00:00"
+        "fetched_at": "2026-03-19T10:24:33+00:00"
       }
     ]
   },
@@ -1210,14 +1210,14 @@
     },
     "status": "confirmed",
     "note": "Подтверждён одинаковый вес 43.7 кг на нескольких источниках (opora-trub.ru: 43.7 кг; awstroy.ru: 43.7 кг).",
-    "updated_at": "2026-03-19T09:43:07+00:00",
+    "updated_at": "2026-03-19T10:24:54+00:00",
     "sources": [
       {
         "domain": "opora-trub.ru",
         "url": "https://www.opora-trub.ru/produkciya/opory-truboprovodov/opory-t6-nepodvizhnye-lobovye-dvuhupornye-usilennye-serii-4-903-10-vypusk-4/",
         "weight": 43.7,
         "unit": "kg",
-        "fetched_at": "2026-03-19T09:43:07+00:00"
+        "fetched_at": "2026-03-19T10:24:54+00:00"
       },
       {
         "domain": "awstroy.ru",
@@ -1245,7 +1245,7 @@
         "url": "https://awstroy.ru/product/opora-t6-11-du-530-mm-seriya-4-903-10-vypusk-4-nepodvizhnaya-lobovaya-dvuhupornaya-usilennaya-tolshchina-stenki-9-mm/",
         "weight": 43.7,
         "unit": "kg",
-        "fetched_at": "2026-03-19T09:43:07+00:00"
+        "fetched_at": "2026-03-19T10:24:54+00:00"
       }
     ]
   },
@@ -1257,7 +1257,7 @@
     },
     "status": "confirmed",
     "note": "Подтверждён одинаковый вес 19.6 кг на нескольких источниках (opora-trub.ru: 19.6 кг; awstroy.ru: 19.6 кг).",
-    "updated_at": "2026-03-19T09:43:29+00:00",
+    "updated_at": "2026-03-19T10:25:17+00:00",
     "sources": [
       {
         "domain": "opora-trub.ru",
@@ -1292,14 +1292,14 @@
         "url": "https://www.opora-trub.ru/produkciya/opory-truboprovodov/opora-kx-ost-36-146-88/",
         "weight": 19.6,
         "unit": "kg",
-        "fetched_at": "2026-03-19T09:43:29+00:00"
+        "fetched_at": "2026-03-19T10:25:17+00:00"
       },
       {
         "domain": "awstroy.ru",
         "url": "https://awstroy.ru/product/opora-273-kkh-a12-du-273-mm-ost-36-146-88-nepodvizhnaya/",
         "weight": 19.6,
         "unit": "kg",
-        "fetched_at": "2026-03-19T09:43:29+00:00"
+        "fetched_at": "2026-03-19T10:25:17+00:00"
       }
     ]
   }

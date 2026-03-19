@@ -2,53 +2,95 @@
   "drawing_name": "Опора скользящая 426-10 по ОСТ 108.275.30-80",
   "items": [
     {
-      "poz": "1",
-      "designation": "Шайба 24 ГОСТ 11371-78*",
-      "name": "Шайба 24 ГОСТ 11371-78*",
-      "qty": "4",
-      "weight": "0,21"
+      "elem": "",
+      "det": "1",
+      "t": "2",
+      "n": "",
+      "section": "212x6",
+      "length": "526",
+      "mass_sht": "4,5",
+      "mass_total": "9,0",
+      "mass_elem": "34,19",
+      "steel": "",
+      "note": "гнуть"
     },
     {
-      "poz": "2",
-      "designation": "Гайка М24.8 ГОСТ 5915-70*",
-      "name": "Гайка М24.8 ГОСТ 5915-70*",
-      "qty": "8",
-      "weight": "1,94"
+      "elem": "",
+      "det": "2",
+      "t": "1",
+      "n": "",
+      "section": "225x6",
+      "length": "355",
+      "mass_sht": "3,76",
+      "mass_total": "3,76",
+      "mass_elem": "",
+      "steel": "",
+      "note": ""
     },
     {
-      "poz": "3",
-      "designation": "КрГ24x1676",
-      "name": "КрГ24",
-      "qty": "2",
-      "weight": "14,12"
+      "elem": "",
+      "det": "3",
+      "t": "4",
+      "n": "",
+      "section": "90x6",
+      "length": "278",
+      "mass_sht": "0,85",
+      "mass_total": "3,4",
+      "mass_elem": "",
+      "steel": "",
+      "note": "гнуть"
     },
     {
-      "poz": "4",
-      "designation": "305x14x780",
-      "name": "305x14",
-      "qty": "1",
-      "weight": "19,63"
+      "elem": "",
+      "det": "4",
+      "t": "1",
+      "n": "",
+      "section": "225x6",
+      "length": "560",
+      "mass_sht": "5,93",
+      "mass_total": "5,93",
+      "mass_elem": "",
+      "steel": "",
+      "note": ""
     },
     {
-      "poz": "5",
-      "designation": "95x10x328",
-      "name": "95x10",
-      "qty": "1",
-      "weight": "1,54"
+      "elem": "",
+      "det": "5",
+      "t": "2",
+      "n": "",
+      "section": "КрГ24",
+      "length": "1216",
+      "mass_sht": "4,32",
+      "mass_total": "8,64",
+      "mass_elem": "",
+      "steel": "",
+      "note": "нар. резьбу, гнуть"
     },
     {
-      "poz": "6",
-      "designation": "305x10x590",
-      "name": "305x10",
-      "qty": "1",
-      "weight": "10,92"
+      "elem": "",
+      "det": "7",
+      "t": "8",
+      "n": "",
+      "section": "Гайка М24.8 ГОСТ 5915-70*",
+      "length": "",
+      "mass_sht": "0,122",
+      "mass_total": "1,83",
+      "mass_elem": "",
+      "steel": "",
+      "note": ""
     },
     {
-      "poz": "7",
-      "designation": "280x10x810",
-      "name": "280x10",
-      "qty": "2",
-      "weight": "23,16"
+      "elem": "",
+      "det": "8",
+      "t": "4",
+      "n": "",
+      "section": "Шайба 36 ГОСТ 11371-78*",
+      "length": "",
+      "mass_sht": "0,032",
+      "mass_total": "0,13",
+      "mass_elem": "",
+      "steel": "",
+      "note": ""
     }
   ]
 }

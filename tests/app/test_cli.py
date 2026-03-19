@@ -65,6 +65,37 @@ def test_cli_pdf_zmk_full_agent_read_required(tmp_path: Path, monkeypatch) -> No
     assert code == cli.EXIT_AGENT_READ
 
 
+def test_cli_pdf_zmk2_full_uses_default_ce1_dir(tmp_path: Path, monkeypatch) -> None:
+    """Without --input-dir, pdf-zmk2 full reads from СЕ1 relative to cwd."""
+    monkeypatch.chdir(tmp_path)
+    ce1 = tmp_path / "СЕ1"
+    ce1.mkdir()
+    ce1.joinpath("a.json").write_text(
+        json.dumps(
+            {
+                "drawing_name": "A",
+                "items": [
+                    {
+                        "elem": "",
+                        "det": "1",
+                        "t": "1",
+                        "n": "",
+                        "section": "X",
+                        "length": "",
+                        "mass_sht": "1",
+                        "mass_total": "1",
+                        "note": "",
+                    }
+                ],
+            },
+            ensure_ascii=False,
+        ),
+        encoding="utf-8",
+    )
+    code = cli.main(["pdf-zmk2", "full", "--dry-run"])
+    assert code == 0
+
+
 def test_cli_ves_run_dry_mode(tmp_path: Path) -> None:
     positions = tmp_path / "positions.txt"
     positions.write_text("57-КХ-А11\n", encoding="utf-8")

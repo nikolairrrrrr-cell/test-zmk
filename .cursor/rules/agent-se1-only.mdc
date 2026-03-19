@@ -1,0 +1,18 @@
+---
+description: In this chat only handle the СЕ1 (pdf-zmk2) tool; user drops files in СЕ1 and gives one command — agent runs the full pipeline and updates Google Sheet tab СЕ1. See docs/agent-instrukciya-se1.md.
+alwaysApply: false
+---
+
+# СЕ1-only chat
+
+When the user is working with the **СЕ1** workflow (or has shared `docs/agent-instrukciya-se1.md`):
+
+- **Scope:** Handle **only** the pdf-zmk2 tool (input folder СЕ1 → output Google Sheet tab **СЕ1**). Do not switch to pdf-zmk (База2), ves, or other tools unless the user explicitly asks.
+- **User role:** User puts documents (images/PDF) in folder **`СЕ1`** and writes a short command (e.g. «Выгрузи СЕ1», «Прогони СЕ1»).
+- **Agent role:**
+  1. Run `python -m app.cli pdf-zmk2 full` (or with `--sheet-write` when user wants the sheet updated).
+  2. If CLI exits with **AGENT_READ_REQUIRED** (exit 3): open each listed crop (`*.table_x4.jpg`), read the specification table from the image, write `data/recognition/<slug>.json` in PDF_ZMK2 schema (elem, det, t, n, section, length, mass_sht, mass_total, note, etc.). Then re-run `pdf-zmk2 full --sheet-write`.
+  3. Do not substitute data from other files; data must come from reading the crop image.
+- **Output:** Google Sheet tab **СЕ1** updated with merged data from all files in folder СЕ1.
+
+Keep the flow simple: one user command → agent runs the pipeline end-to-end.

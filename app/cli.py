@@ -7,7 +7,7 @@ from pathlib import Path
 from app.config import Settings
 from app.recognizers import AgentRecognizer, AgentReadRequired, RecognitionError
 from app.use_cases.pdf_zmk import run_pdf_zmk_full
-from app.use_cases.pdf_zmk2 import run_pdf_zmk2
+from app.use_cases.pdf_zmk2 import run_pdf_zmk2, run_pdf_zmk2_full
 from app.use_cases.ves import run_ves
 
 
@@ -39,6 +39,17 @@ def _build_parser() -> argparse.ArgumentParser:
     pdf_zmk2_run.add_argument("--sheet-write", action="store_true")
     pdf_zmk2_run.add_argument("--dry-run", action="store_true")
     pdf_zmk2_run.add_argument("--output-json")
+
+    pdf_zmk2_full = pdf_zmk2_sub.add_parser("full")
+    pdf_zmk2_full.add_argument(
+        "--input-dir",
+        default=None,
+        help="Папка с файлами PDF_ZMK2. По умолчанию: СЕ1 (или PDF_ZMK2_INPUT_DIR).",
+    )
+    pdf_zmk2_full.add_argument("--sheet-write", action="store_true")
+    pdf_zmk2_full.add_argument("--dry-run", action="store_true")
+    pdf_zmk2_full.add_argument("--workers", type=int, default=6)
+    pdf_zmk2_full.add_argument("--output-json")
 
     # ves
     ves = root_sub.add_parser("ves")
@@ -81,13 +92,45 @@ def main(argv: list[str] | None = None) -> int:
             return EXIT_OK
 
         if args.tool == "pdf-zmk2" and args.command == "run":
-            run_pdf_zmk2(
+            result = run_pdf_zmk2(
                 input_path=Path(args.input),
                 recognizer=recognizer,
                 settings=settings,
                 sheet_write=bool(args.sheet_write),
                 dry_run=bool(args.dry_run),
                 output_json=Path(args.output_json) if args.output_json else None,
+            )
+            print(
+                "pdf-zmk2 run done: "
+                f"rows={result.rows_count}, "
+                f"sheet={settings.sheet_pdf_zmk2!r}, "
+                f"sheet_written={result.sheet_written}, "
+                f"spreadsheet_id={settings.spreadsheet_id!r}"
+            )
+            return EXIT_OK
+
+        if args.tool == "pdf-zmk2" and args.command == "full":
+            input_dir = (
+                Path(args.input_dir)
+                if args.input_dir
+                else settings.pdf_zmk2_input_dir
+            )
+            result = run_pdf_zmk2_full(
+                input_dir=input_dir,
+                settings=settings,
+                sheet_write=bool(args.sheet_write),
+                dry_run=bool(args.dry_run),
+                output_json=Path(args.output_json) if args.output_json else None,
+                workers=int(args.workers),
+            )
+            print(
+                "pdf-zmk2 full done: "
+                f"input_dir={input_dir!s}, "
+                f"total={result.total_files}, processed={result.processed_files}, "
+                f"rows={result.rows_count}, elapsed={result.elapsed_seconds}s, "
+                f"sheet={settings.sheet_pdf_zmk2!r}, "
+                f"sheet_written={result.sheet_written}, "
+                f"spreadsheet_id={settings.spreadsheet_id!r}"
             )
             return EXIT_OK
 
@@ -115,10 +158,15 @@ def main(argv: list[str] | None = None) -> int:
             file=sys.stderr,
         )
         print(str(exc), file=sys.stderr)
+        rerun_cmd = (
+            "python -m app.cli pdf-zmk2 full --sheet-write"
+            if getattr(args, "tool", None) == "pdf-zmk2"
+            else "python -m app.cli pdf-zmk full --input-dir <dir> --sheet-write"
+        )
         print(
             "\n→ Agent must now read each crop image listed above,\n"
             "  extract the table data, and write the JSON payload.\n"
-            "→ Then re-run: python -m app.cli pdf-zmk full --input-dir <dir> --sheet-write\n",
+            f"→ Then re-run: {rerun_cmd}\n",
             file=sys.stderr,
         )
         return EXIT_AGENT_READ

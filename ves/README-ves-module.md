@@ -5,7 +5,7 @@
 - чтение входного файла с позициями;
 - поиск и кэширование весов по доверенным сайтам;
 - агрегация результатов по доменам;
-- подготовка данных для листа Google Sheets `PDF_ZMK_VES`.
+- подготовка данных для листа Google Sheets `Масса`.
 
 Запуск через CLI:
 
@@ -20,7 +20,7 @@ py -m app.cli ves run --positions ves/test_positions.txt --online --force-refres
 ### Файлы модуля
 
 - `ves/test_positions.txt`
-  Тестовый список позиций (по одной на строку), на которых отлаживается пайплайн поиска веса и заполнения листа `PDF_ZMK_VES`.
+  Тестовый список позиций (по одной на строку), на которых отлаживается пайплайн поиска веса и заполнения листа `Масса`.
 
 - `ves/weights_db.json`
   Единая локальная база найденных весов. Хранится в виде JSON-объекта вида:
@@ -65,11 +65,11 @@ py -m app.cli ves run --positions ves/test_positions.txt --online --force-refres
   Принимает обозначение опоры и возвращает структуру с весами по доменам, статусом и примечанием.
 
 - `generate_pdf_zmk_ves_values(positions: list[str]) -> list[list[str]]`
-  Строит двумерный массив значений для листа Google Sheets `PDF_ZMK_VES`.
+  Строит двумерный массив значений для листа Google Sheets `Масса`.
 
-### Лист Google Sheets `PDF_ZMK_VES`
+### Лист Google Sheets `Масса`
 
-- Имя листа: `PDF_ZMK_VES`.
+- Имя листа: `Масса`.
 - Колонки:
   - `A` — исходная позиция;
   - `B, C, D, ...` — по столбцу на каждый домен-источник;
@@ -80,5 +80,5 @@ py -m app.cli ves run --positions ves/test_positions.txt --online --force-refres
 1. CLI читает входной список позиций.
 2. Для каждой позиции вызывает `ves.resolver.resolve_position`.
 3. Резолвер проверяет кэш `ves/weights_db.json`, при необходимости скрейпит сайты.
-4. `generate_pdf_zmk_ves_values` формирует массив для `PDF_ZMK_VES`.
+4. `generate_pdf_zmk_ves_values` формирует массив для `Масса`.
 5. CLI очищает лист и записывает значения.

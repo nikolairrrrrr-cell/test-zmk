@@ -150,7 +150,7 @@ def run_pdf_zmk_full(
     │ PHASE 3  normalize + sheets                         │
     │   Load all payload JSONs                            │
     │   → normalize rows                                  │
-    │   → write to Google Sheet PDF_ZMK                   │
+    │   → write to Google Sheet (tab База2 / GOOGLE_SHEET_PDF_ZMK)   │
     └─────────────────────────────────────────────────────┘
     """
     start = time.perf_counter()
