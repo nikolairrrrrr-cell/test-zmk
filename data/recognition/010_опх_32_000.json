@@ -1,0 +1,33 @@
+{
+  "drawing_name": "010.ОПХ-32.000",
+  "items": [
+    {
+      "poz": "1",
+      "designation": "333x200x4",
+      "name": "Скоба",
+      "qty": "1",
+      "weight": "2,08"
+    },
+    {
+      "poz": "2",
+      "designation": "250x40x4",
+      "name": "Полухомут",
+      "qty": "1",
+      "weight": "0,31"
+    },
+    {
+      "poz": "3",
+      "designation": "",
+      "name": "Болт М10х40 ГОСТ 7798-70",
+      "qty": "4",
+      "weight": "0,036"
+    },
+    {
+      "poz": "4",
+      "designation": "",
+      "name": "Гайка М10 ГОСТ 5915-70",
+      "qty": "8",
+      "weight": "0,012"
+    }
+  ]
+}

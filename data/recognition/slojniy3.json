@@ -1,0 +1,124 @@
+{
+  "drawing_name": "4508-АТК ОРГ3-720",
+  "items": [
+    {
+      "poz": "1",
+      "designation": "700x340x10",
+      "name": "Плита скольжения",
+      "qty": "1",
+      "weight": "18,54"
+    },
+    {
+      "poz": "2",
+      "designation": "70x10x8",
+      "name": "Упор",
+      "qty": "4",
+      "weight": "0,04"
+    },
+    {
+      "poz": "3",
+      "designation": "ШВ24x190",
+      "name": "Швеллер",
+      "qty": "2",
+      "weight": "3,84"
+    },
+    {
+      "poz": "4",
+      "designation": "225x76x8",
+      "name": "Стенка",
+      "qty": "1",
+      "weight": "0,99"
+    },
+    {
+      "poz": "5",
+      "designation": "260x196x10",
+      "name": "Направляющая",
+      "qty": "2",
+      "weight": "3,98"
+    },
+    {
+      "poz": "6",
+      "designation": "260x220x10",
+      "name": "Плита",
+      "qty": "2",
+      "weight": "4,46"
+    },
+    {
+      "poz": "7",
+      "designation": "260x59x10",
+      "name": "Пластина",
+      "qty": "2",
+      "weight": "1,12"
+    },
+    {
+      "poz": "8",
+      "designation": "796x300x10",
+      "name": "Подушка",
+      "qty": "1",
+      "weight": "18,63"
+    },
+    {
+      "poz": "9",
+      "designation": "225x76x8",
+      "name": "Прокладка (Целон)",
+      "qty": "1",
+      "weight": "0,98"
+    },
+    {
+      "poz": "10",
+      "designation": "225x76x8",
+      "name": "Стенка",
+      "qty": "1",
+      "weight": "0,98"
+    },
+    {
+      "poz": "11",
+      "designation": "d33,5x2,8x76",
+      "name": "Патрубок",
+      "qty": "1",
+      "weight": "0,2"
+    },
+    {
+      "poz": "12",
+      "designation": "d24x840",
+      "name": "Шпилька",
+      "qty": "2",
+      "weight": "2,96"
+    },
+    {
+      "poz": "13",
+      "designation": "30x10x10",
+      "name": "Упор",
+      "qty": "1",
+      "weight": "0,02"
+    },
+    {
+      "poz": "14",
+      "designation": "",
+      "name": "Болт М12х100.58 ГОСТ 7798-70",
+      "qty": "2",
+      "weight": "0,112"
+    },
+    {
+      "poz": "15",
+      "designation": "",
+      "name": "Гайка М12.5 ГОСТ 5915-70",
+      "qty": "2",
+      "weight": "0,018"
+    },
+    {
+      "poz": "16",
+      "designation": "52x52x2",
+      "name": "Шайба стопорная",
+      "qty": "1",
+      "weight": "0,025"
+    },
+    {
+      "poz": "17",
+      "designation": "",
+      "name": "Гайка М24.5 ГОСТ 5915-70",
+      "qty": "3",
+      "weight": "0,123"
+    }
+  ]
+}

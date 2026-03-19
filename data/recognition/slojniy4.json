@@ -1,0 +1,22 @@
+{
+  "drawing_name": "4508-АТК ОРГ2-219",
+  "items": [
+    {"poz": "1", "designation": "470x340x10", "name": "Плита опорная", "qty": "1", "weight": "12,46"},
+    {"poz": "2", "designation": "70x10x8", "name": "Платик", "qty": "4", "weight": "0,04"},
+    {"poz": "3", "designation": "ШВ24x140", "name": "Швеллер", "qty": "2", "weight": "2,75"},
+    {"poz": "4", "designation": "220x57x10", "name": "Ребро", "qty": "1", "weight": "0,92"},
+    {"poz": "5", "designation": "260x145x10", "name": "Пластина", "qty": "2", "weight": "2,94"},
+    {"poz": "6", "designation": "260x86x10", "name": "Пластина", "qty": "2", "weight": "1,74"},
+    {"poz": "7", "designation": "d16x260", "name": "Пруток", "qty": "2", "weight": "0,41"},
+    {"poz": "8", "designation": "300x250x10", "name": "Подушка", "qty": "1", "weight": "5,85"},
+    {"poz": "9", "designation": "340x250x4", "name": "Прокладка (фторопласт)", "qty": "1", "weight": "0,75"},
+    {"poz": "10", "designation": "220x57x10", "name": "Ребро", "qty": "1", "weight": "0,92"},
+    {"poz": "11", "designation": "d26,8x2,8x87", "name": "Патрубок", "qty": "1", "weight": "0,14"},
+    {"poz": "12", "designation": "d16x490", "name": "Шпилька", "qty": "1", "weight": "0,77"},
+    {"poz": "13", "designation": "40x8x8", "name": "Упор", "qty": "1", "weight": "0,02"},
+    {"poz": "14", "designation": "", "name": "Болт М8x65 ГОСТ 7798-70", "qty": "2", "weight": "0,039"},
+    {"poz": "15", "designation": "", "name": "Гайка М8 ГОСТ 5915-70", "qty": "2", "weight": "0,006"},
+    {"poz": "16", "designation": "32x32x2", "name": "Шайба стопорная", "qty": "1", "weight": "0,009"},
+    {"poz": "17", "designation": "", "name": "Гайка М16.58 ГОСТ 5915-70", "qty": "3", "weight": "0,038"}
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "drawing_name": "57-ВХ-1-П",
+  "items": [
+    {
+      "poz": "1",
+      "designation": "116x108x4",
+      "name": "Пластина",
+      "qty": "2",
+      "weight": "0,367"
+    },
+    {
+      "poz": "2",
+      "designation": "100x100x4",
+      "name": "Ребро",
+      "qty": "4",
+      "weight": "0,214"
+    },
+    {
+      "poz": "3",
+      "designation": "143x120x4",
+      "name": "Полухомут",
+      "qty": "2",
+      "weight": "0,523"
+    },
+    {
+      "poz": "4",
+      "designation": "67x40x6",
+      "name": "Упор",
+      "qty": "4",
+      "weight": "0,128"
+    },
+    {
+      "poz": "5",
+      "designation": "",
+      "name": "Болт М12-бдх60-8.8-А3А ГОСТ Р ИСО 4014",
+      "qty": "4",
+      "weight": "0,069"
+    },
+    {
+      "poz": "6",
+      "designation": "",
+      "name": "Гайка М12-8-А3А ГОСТ ISO 4034",
+      "qty": "8",
+      "weight": "0,018"
+    },
+    {
+      "poz": "7",
+      "designation": "",
+      "name": "Шайба C12.01.08кп.019 ГОСТ 11371-78",
+      "qty": "4",
+      "weight": "0,006"
+    }
+  ]
+}

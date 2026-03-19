@@ -1,0 +1,82 @@
+{
+  "drawing_name": "21029.05.000СБ",
+  "items": [
+    {
+      "poz": "1",
+      "designation": "1150x1050x20",
+      "name": "Плита",
+      "qty": "1",
+      "weight": "188,37"
+    },
+    {
+      "poz": "2",
+      "designation": "1100x700x20",
+      "name": "Основание опоры",
+      "qty": "1",
+      "weight": "120,12"
+    },
+    {
+      "poz": "3",
+      "designation": "1100x618x20",
+      "name": "Стенка",
+      "qty": "2",
+      "weight": "81,6"
+    },
+    {
+      "poz": "4",
+      "designation": "577x560x20",
+      "name": "Стенка",
+      "qty": "2",
+      "weight": "50,41"
+    },
+    {
+      "poz": "5",
+      "designation": "1342x700x20",
+      "name": "Подушка",
+      "qty": "1",
+      "weight": "146,55"
+    },
+    {
+      "poz": "6",
+      "designation": "d10x1150",
+      "name": "Пруток",
+      "qty": "2",
+      "weight": "0,71"
+    },
+    {
+      "poz": "7",
+      "designation": "d10x58",
+      "name": "Пруток",
+      "qty": "2",
+      "weight": "0,04"
+    },
+    {
+      "poz": "8",
+      "designation": "d20x1130",
+      "name": "Пруток",
+      "qty": "12",
+      "weight": "2,77"
+    },
+    {
+      "poz": "9",
+      "designation": "d10x78",
+      "name": "Пруток",
+      "qty": "16",
+      "weight": "0,05"
+    },
+    {
+      "poz": "10",
+      "designation": "d10x1030",
+      "name": "Пруток",
+      "qty": "2",
+      "weight": "0,63"
+    },
+    {
+      "poz": "11",
+      "designation": "d10x28",
+      "name": "Пруток",
+      "qty": "6",
+      "weight": "0,02"
+    }
+  ]
+}

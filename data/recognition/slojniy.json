@@ -1,0 +1,124 @@
+{
+  "drawing_name": "4508-АТК ОРГ2-159",
+  "items": [
+    {
+      "poz": "1",
+      "designation": "350x200x10",
+      "name": "Плита опорная",
+      "qty": "1",
+      "weight": "5,45"
+    },
+    {
+      "poz": "2",
+      "designation": "70x10x8",
+      "name": "Платик",
+      "qty": "4",
+      "weight": "0,04"
+    },
+    {
+      "poz": "3",
+      "designation": "ШВ12x80",
+      "name": "Швеллер",
+      "qty": "2",
+      "weight": "0,74"
+    },
+    {
+      "poz": "4",
+      "designation": "105x42x6",
+      "name": "Ребро",
+      "qty": "1",
+      "weight": "0,19"
+    },
+    {
+      "poz": "5",
+      "designation": "140x83x6",
+      "name": "Пластина",
+      "qty": "2",
+      "weight": "0,54"
+    },
+    {
+      "poz": "6",
+      "designation": "140x62x6",
+      "name": "Пластина",
+      "qty": "2",
+      "weight": "0,41"
+    },
+    {
+      "poz": "7",
+      "designation": "d16x140",
+      "name": "Пруток",
+      "qty": "2",
+      "weight": "0,22"
+    },
+    {
+      "poz": "8",
+      "designation": "180x150x6",
+      "name": "Подушка",
+      "qty": "1",
+      "weight": "1,26"
+    },
+    {
+      "poz": "9",
+      "designation": "185x200x4",
+      "name": "Прокладка (фторопласт)",
+      "qty": "1",
+      "weight": "0,14"
+    },
+    {
+      "poz": "10",
+      "designation": "105x42x6",
+      "name": "Ребро",
+      "qty": "1",
+      "weight": "0,19"
+    },
+    {
+      "poz": "11",
+      "designation": "d26,8x2,8x87",
+      "name": "Патрубок",
+      "qty": "1",
+      "weight": "0,14"
+    },
+    {
+      "poz": "12",
+      "designation": "d16x350",
+      "name": "Шпилька",
+      "qty": "1",
+      "weight": "0,55"
+    },
+    {
+      "poz": "13",
+      "designation": "40x8x8",
+      "name": "Упор",
+      "qty": "1",
+      "weight": "0,02"
+    },
+    {
+      "poz": "14",
+      "designation": "",
+      "name": "Болт М8х70 ГОСТ 7798-70",
+      "qty": "2",
+      "weight": "0,033"
+    },
+    {
+      "poz": "15",
+      "designation": "",
+      "name": "Гайка М8 ГОСТ 5915-70",
+      "qty": "2",
+      "weight": "0,006"
+    },
+    {
+      "poz": "16",
+      "designation": "32x32x2",
+      "name": "Шайба стопорная",
+      "qty": "1",
+      "weight": "0,009"
+    },
+    {
+      "poz": "17",
+      "designation": "",
+      "name": "Гайка М16.58 ГОСТ 5915-70",
+      "qty": "3",
+      "weight": "0,038"
+    }
+  ]
+}

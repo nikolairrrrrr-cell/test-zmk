@@ -1,0 +1,26 @@
+{
+  "drawing_name": "2-25-4 АТК 26-18-5-93",
+  "items": [
+    {
+      "poz": "1",
+      "designation": "65x13",
+      "name": "Кольцо",
+      "qty": "1",
+      "weight": "0,23"
+    },
+    {
+      "poz": "2",
+      "designation": "Ø100x24",
+      "name": "Перемычка",
+      "qty": "2",
+      "weight": "0,04"
+    },
+    {
+      "poz": "3",
+      "designation": "Ø60x15",
+      "name": "Заглушка",
+      "qty": "1",
+      "weight": "0,29"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "drawing_name": "4508-АТК ОТ2-57",
+  "items": [
+    {
+      "poz": "1",
+      "designation": "d10x214",
+      "name": "Хомут",
+      "qty": "1",
+      "weight": "0,15"
+    },
+    {
+      "poz": "2",
+      "designation": "50x5x4",
+      "name": "Подушка",
+      "qty": "1",
+      "weight": "0,08"
+    },
+    {
+      "poz": "3",
+      "designation": "",
+      "name": "Гайка M10.5 ГОСТ 5915-70",
+      "qty": "2",
+      "weight": "0,012"
+    },
+    {
+      "poz": "4",
+      "designation": "",
+      "name": "Шайба 10 ГОСТ 11371-78",
+      "qty": "2",
+      "weight": "0,004"
+    }
+  ]
+}
